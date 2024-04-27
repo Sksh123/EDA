@@ -57,10 +57,8 @@ def parallel_hash_join(EMPLOYEE_LIST, PROJECT_LIST, num_partitions):
         
     return result
 
-# Perform the parallel hash join
 result = parallel_hash_join(EMPLOYEE_LIST, PROJECT_LIST, num_partitions=4)
 
-# Create a table to display the result
 table = PrettyTable(["E.Id", "Employee Name", "Department", "Project"])
 for item in result:
     table.add_row([item["E.Id"], item["Employee Name"], item["Department"], item["Project"]])
