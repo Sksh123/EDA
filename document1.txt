@@ -1,0 +1,2 @@
+Document 1 demonstrates how tokenization can impact cosine similarity calculations.
+

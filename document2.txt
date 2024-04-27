@@ -1,0 +1,2 @@
+Document 2 showcases the importance of proper data impact cosine similarity calculations .
+
